@@ -10,13 +10,15 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
-.clearfix{
-    clear: both;
-}
-
 .header{
     background-color: #007765;
+    width: 100%;
+    max-height: 90px;
+    overflow: hidden;
+    position: fixed;
 }
+
+
 
 .header .container, .backimage_block .container{
     padding-top: 0;
