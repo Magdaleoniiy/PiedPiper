@@ -10,17 +10,17 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+.clearfix{
+    clear: both;
+}
+
 .header{
-    height: 84px;
     background-color: #007765;
 }
 
-.header .container > * {
-    display: inline-block;
-}
-
 .header .container, .backimage_block .container{
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .container{
@@ -44,12 +44,18 @@ html{
 }
 
 .logo_box{
+    display: inline-block;
     padding-top: 19px;
+    padding-bottom: 18px;
+
 }
 
 .header_menu_bar_box{
+    display: inline-block;
     float: right;
     margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 10px;
 }
 
 .menu_bar{

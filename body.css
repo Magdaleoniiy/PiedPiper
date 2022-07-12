@@ -8,6 +8,7 @@
     color: white;
     text-align: center;
     padding-top: 160px;
+    padding-bottom: 160px;
 }
 
 .backimage_block h2{
@@ -16,13 +17,13 @@
 }
 
 .jumbotron{
-    height: 403px;
     background-image: url('img/grind.png');
+    background-size: cover;
 }
 
 .hero{
-    height: 483px;
     background-image: url('img/blue_grind.png');
+    background-size: cover;
 }
 
 .the_problem{
@@ -35,9 +36,71 @@
     margin-bottom: 35px;
 }
 
+.the_team{
+    background-color: #EEEEEE;
+}
+
 .footer{
     background-color: #333333;
 }
+
+.the_team_profile_area{
+    text-align: center;
+}
+.profile_box{
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 58px;
+}
+
+.the_team h1{
+    margin-bottom: 32px;
+}
+.the_team h3{
+    color: #007765;
+    font-size: 24px;
+    line-height: 29px;
+    
+    text-align: center;
+}
+
+.the_team p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.profile_img{
+    width: 168px;
+    height: 168px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-size: cover;
+}
+.profile_img_1 {
+    background-image: url('img/Richard.png');
+}
+.profile_img_2 {
+    background-image: url('img/theguy.jpg'); 
+}
+.profile_img_3 {
+    background-image: url('img/Bertram.png ');
+}
+.profile_img_4 {
+    background-image: url('img/Jared.png'); 
+}
+.profile_img_5 {
+    background-image: url('img/Monica.png'); 
+}
+.profile_img_6 {
+    background-image: url('img/Nelson.png'); 
+}
+
 .footer .container{
     max-width: 600px;
     padding-top: 48px;
