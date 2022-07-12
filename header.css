@@ -40,7 +40,6 @@ html{
     text-align: center;
     font-size: 64px;
     color: #007765;
-    margin-bottom: 16px;
 }
 
 .logo_box{
@@ -58,9 +57,10 @@ html{
     margin-left: 10px;
 }
 
-.menu_bar{
+.menu_bar a, .menu_bar li{
     color: #fff;
     font-size: 24px;
+    text-decoration: none;
 }
 .menu_bar li{
     display: inline-block;
