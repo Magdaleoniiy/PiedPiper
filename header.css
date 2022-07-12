@@ -19,11 +19,28 @@ html{
     display: inline-block;
 }
 
+.header .container, .backimage_block .container{
+    padding: 0;
+}
+
 .container{
     max-width: 1219px;
     padding-left: 55px;
     padding-right: 55px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     margin: 0 auto;
+    font-size: 32px;
+    color: black;
+
+}
+
+.container h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+    margin-bottom: 16px;
 }
 
 .logo_box{

@@ -25,3 +25,13 @@
     background-image: url('img/blue_grind.png');
 }
 
+.the_problem{
+    background-color: #EEEEEE;
+}
+
+.ppc img{
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 35px;
+}
+
