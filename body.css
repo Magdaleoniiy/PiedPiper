@@ -35,3 +35,18 @@
     margin-bottom: 35px;
 }
 
+.footer{
+    background-color: #333333;
+}
+.footer .container{
+    max-width: 600px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
