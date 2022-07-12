@@ -1,14 +1,27 @@
-.jumbotron{
-    height: 403px;
-    background-image: url('img/grind.png');
+.backimage_block{ 
     background-size: cover;
 }
 
-.jumbotron h1{
+.backimage_block h1, h2 {
     font-size: 72px;
     font-weight: 500;
     color: white;
     text-align: center;
     padding-top: 160px;
+}
+
+.backimage_block h2{
+    font-size: 48px;
+    font-style: italic;
+}
+
+.jumbotron{
+    height: 403px;
+    background-image: url('img/grind.png');
+}
+
+.hero{
+    height: 483px;
+    background-image: url('img/blue_grind.png');
 }
 
