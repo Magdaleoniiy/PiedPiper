@@ -1,0 +1,14 @@
+.jumbotron{
+    height: 403px;
+    background-image: url('img/grind.png');
+    background-size: cover;
+}
+
+.jumbotron h1{
+    font-size: 72px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
+
